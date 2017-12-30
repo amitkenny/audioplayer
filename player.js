@@ -65,8 +65,8 @@ Player.prototype = {
           requestAnimationFrame(self.step.bind(self));
 
           // Start the wave animation if we have already loaded
-          wave.container.style.display = 'none';
-          bar.style.display = 'block';
+          wave.container.style.display = 'block';
+          bar.style.display = 'none';
           pauseBtn.style.display = 'block';
         },
         onload: function() {
