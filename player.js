@@ -28,9 +28,11 @@ var Player = function(playlist) {
 
   // Setup the playlist display.
   playlist.forEach(function(song) {
+    console.log(song);
     var div = document.createElement('div');
     div.className = 'list-song';
     div.innerHTML = song.title;
+    
     div.onclick = function() {
       player.skipTo(playlist.indexOf(song));
     };
