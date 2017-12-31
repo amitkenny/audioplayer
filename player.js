@@ -276,6 +276,11 @@ var player = new Player([
     title: 'The Confession of Hope',
     file: 'https://harvestministries.nyc3.digitaloceanspaces.com/The%20Confession%20of%20Hope%20-%201st%20Oct%202017.mp3',
     howl: null
+  },
+  {
+    title: 'The Foolishness of the Cross',
+    file: 'https://harvestministries.nyc3.digitaloceanspaces.com/The%20Foolishness%20of%20the%20Cross%20-%208th%20Oct%202017.mp3',
+    howl: null
   }
 ]);
 
