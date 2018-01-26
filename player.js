@@ -288,6 +288,11 @@ var player = new Player([
     title: 'Understanding the Deceiver',
     file:  'https://harvestministries.nyc3.digitaloceanspaces.com/Understanding%20the%20Deceiver%20-%208th%20Oct%202017.mp3',
     howl: null
+  },
+  {
+    title: 'Calming the Storm',
+    file:  'https://harvestministries.nyc3.digitaloceanspaces.com/Calming%20the%20Storm%20-%2022nd%20Oct%202017.mp3',
+    howl: null
   }
 ]);
 
